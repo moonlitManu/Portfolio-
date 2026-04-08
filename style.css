@@ -270,6 +270,9 @@ nav img {
   footer, nav, section{
     width: 100%;
   }
+  form{
+    border: none;
+  }
 
   /*test till here  */
   body {
