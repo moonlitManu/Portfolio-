@@ -267,6 +267,11 @@ nav img {
     width: 100%;
     padding: 1rem 1rem;
 }
+  footer, nav, section{
+    width: 100%;
+  }
+
+  /*test till here  */
   body {
     overflow-x: hidden;
   }
