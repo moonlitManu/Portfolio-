@@ -257,8 +257,10 @@ nav img {
 }
 @media (max-width: 500px) {
   body {
+    max-width: 100%;
     overflow-x: hidden;
   }
+  
   nav {
     display: flex;
     flex-direction: column;
@@ -480,6 +482,9 @@ footer ul li i:hover {
 @media (max-width: 500px) {
   footer {
     font-size: 1rem;
+  }
+  form{
+    width: 70%;
   }
 }
 
