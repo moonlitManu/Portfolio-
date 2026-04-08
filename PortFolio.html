@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manav Dev Sharma</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <!-- navigation -->
+    <header>
+      <nav id="nav">
+        <div class="menu">
+          <img src="assets/menu.png" alt="" />
+        </div>
+        <ul>
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="https://drive.google.com/uc?export=download&id=1qf2Kf2iPywE8ZCNPThz3mZ6dHJeY1ZQJ" download="ManavDevResume.pdf">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Intro Section -->
+      <section id="intro">
+        <figure>
+          <img src="assets/intro.gif" alt="" class="intro-img" />
+          <figcaption>stylized image with my name</figcaption>
+        </figure>
+        <h1></h1>
+        <p>
+          A young, passionate programmer, teacher, and tech enthusiast. I thrive
+          on exploring ever-evolving technologies and turning ideas into
+          practical solutions. My curiosity drives me to learn continuously,
+          share knowledge, and innovate in ways that make an impact. I'm eager
+          to connect, collaborate, and contribute to projects that challenge the
+          boundaries of technology
+        </p>
+        <div>
+          <button onclick="location.href = '#projects'">myProjects</button>
+        </div>
+      </section>
+
+      <!-- Skill section -->
+      <section id="skills">
+        <article class="skill-learnt frontend">
+          <div class="card-img">
+            <img src="assets/frontend.webp" alt="" />
+            <p>Front-End</p>
+          </div>
+          <div class="card-text">
+            <p>
+              Creating modern, accessible websites that look great on any
+              device. Focused on clean, maintainable code and smooth user
+              interactions, and is skillful with following technologies:
+            </p>
+          </div>
+          <div class="tags">
+            <p>HTML</p>
+            <p>Css</p>
+            <p>Js</p>
+            <p>React</p>
+          </div>
+        </article>
+
+        <article class="skill-learnt backend">
+          <div class="card-img">
+            <img src="assets/backend.webp" alt="" />
+            <p>Back-End</p>
+          </div>
+          <div class="card-text">
+            <p>
+              Creating secure, scalable backend systems that perform reliably across environments. Focused on clean, maintainable code and strong data protection, and is skillful with following technologies:
+            </p>
+          </div>
+          <div class="tags">
+            <p>Node js.</p>
+            <p>Express js.</p>
+            <p>MongoDB</p>
+          </div>
+        </article>
+
+        <article class="skill-learnt web-security">
+          <div class="card-img">
+            <img src="assets/security.jpg" alt="" />
+            <p>Web Security</p>
+          </div>
+          <div class="card-text">
+            <p>
+              Creating secure web applications by identifying and mitigating vulnerabilities. Focused on clean, maintainable code and strong defensive practices, and is skillful with following technologies:
+            </p>
+          </div>
+          <div class="tags">
+            <p>BurpSuit</p>
+            <p>Nmap</p>
+            <p>Linux</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="projects">
+        <article class="skill-learnt project_1">
+          <div class="card-img">
+            <img src="assets/frontend.webp" alt="" />
+            <p>Project 1</p>
+          </div>
+          <div class="card-text">
+            <p>
+              <span class="project_name">UIverse StoreFront: </span> a
+              responsive and user-friendly eCommerce interface built to deliver
+              a smooth shopping experience. It features dynamic product
+              listings, search and filtering functionality, and an interactive
+              cart system. The project emphasizes clean UI design, intuitive
+              navigation, and efficient state management.
+            </p>
+          </div>
+          <div class="tags project_btns">
+            <button class="project_btn"><a href="#">View Code</a></button>
+            <button class="project_btn"><a href="#">Live Demo</a></button>
+          </div>
+        </article>
+        <article class="skill-learnt project_2">
+          <div class="card-img">
+            <img src="assets/frontend.webp" alt="" />
+            <p>Project 2</p>
+          </div>
+          <div class="card-text">
+            <p>
+              <span class="project_name">ShopCore API: </span>
+              ShopCore API is a RESTful backend service designed to power
+              eCommerce platform. It handles user authentication, product
+              management, cart operations, and order processing. The system is
+              built with a focus on clean architecture, scalable routing, and
+              secure data handling.
+            </p>
+          </div>
+          <div class="tags project_btns">
+            <button class="project_btn"><a href="#">View Code</a></button>
+            <button class="project_btn"><a href="#">Live Demo</a></button>
+          </div>
+        </article>
+        <article class="skill-learnt project_3">
+          <div class="card-img">
+            <img src="assets/frontend.webp" alt="" />
+            <p>Project 3</p>
+          </div>
+          <div class="card-text">
+            <p>
+              <span class="project_name">SecureScope: </span>SecureScope is a
+              web security tool designed to identify and demonstrate common
+              vulnerabilities in web applications. It includes features such as
+              password strength analysis, security header checks, and
+              demonstrations of risks like weak authentication or input handling
+              flaws.
+            </p>
+          </div>
+          <div class="tags project_btns">
+            <button class="project_btn"><a href="#">View Code</a></button>
+            <button class="project_btn"><a href="#">Live Demo</a></button>
+          </div>
+        </article>
+      </section>
+
+      <section id="contact">
+        <form id="contact_form">
+          <h1>Contact Me</h1>
+          <div class="contact_container">
+            <label for="name">
+              <img src="assets/name.png" alt="" class="contact_img" />
+            </label>
+            <input type="text" required placeholder="Name" id="name" />
+          </div>
+
+          <div class="contact_container">
+            <label for="emails">
+              <img src="assets/image.png" alt="" class="contact_img" />
+            </label>
+            <input type="email" id="emails" required placeholder="Email" />
+          </div>
+
+          <div class="contact_container msg_area">
+            <textarea
+              name=""
+              id="msg"
+              rows="4"
+              placeholder="Write Message"
+            ></textarea>
+          </div>
+          <input type="submit" value="ReachMe" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <!-- find me on platforms link and umm what can I add -->
+      <ul>
+        <li>
+          <a href="https://github.com/moonlitManu" target="_blank"><i class="fa-brands fa-github"></i> </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/manav-dev-sharma-608ba8309?utm_source=share_via&utm_content=profile&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fa-brands fa-linkedin"></i> </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/moonlit_manu?=igsh=YzUxZnFuNGU3Z21u" target="_blank"><i class="fa-brands fa-instagram"></i> </a>
+        </li>
+      </ul>
+      <div class="footer_text">
+        <p>@2026 Manav Dev Sharma, All rights reserved.</p>
+      </div>
+      <div class="footer_text">
+        Completely built and designed solely by me using vanilla HTML, Css and JavaScript
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
